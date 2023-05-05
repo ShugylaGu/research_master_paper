@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "research-master-paper"
+version = "0.1.0"
+description = ""
+authors = ["ShugylaGu <shugyla.gu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "research_master_paper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+autopep8 = "^2.0.2"
+jupyter = "^1.0.0"
+jupyter-contrib-core = "^0.4.2"
+jupyter-contrib-nbextensions = "^0.7.0"
+jupyterthemes = "^0.20.0"
+multiprocess = "^0.70.14"
+plotly = "^5.14.1"
+requests = "^2.30.0"
+ipywidgets = "7.7.5"
+notebook = "6.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
