@@ -12,14 +12,13 @@ env_install_dependencies:
 	pip3 install --upgrade pip \
 	&& pip3 install wheel \
 	&& pip3 install poetry==1.2.2 \
-	&& poetry install
+	&& poetry install && pip3 install lightgbm==3.3.5
 
 env_install_jupyter_extensions:
 	jupyter contrib nbextension install --sys-prefix \
 	&& jupyter nbextension install --user https://rawgithub.com/minrk/ipython_extensions/master/nbextensions/toc.js \
 	&& jupyter nbextension enable --py widgetsnbextension \
 	&& jupyter nbextension enable codefolding/main \
-	&& jupyter nbextension enable --py keplergl \
 	&& jupyter nbextension enable spellchecker/main \
 	&& jupyter nbextension enable toggle_all_line_numbers/main \
 	&& jupyter nbextension enable hinterland/hinterland \
