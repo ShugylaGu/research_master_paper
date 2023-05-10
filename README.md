@@ -1,6 +1,6 @@
-# **Research of GPS activity extraction** 🚛
+# **Research of ** 
 
-Project for master's dissertation paper materials about extraction of vehicle gps activities from customized clustering model
+Project for master's dissertation paper materials about extraction      from customized clustering model
 
 - [PyPI](https://pypi.org/project/gps-activity/): Python module with pre-built clustering models
 - [GitHub](https://github.com/WasteLabs/gps_activity): Python module with pre-built clustering models
